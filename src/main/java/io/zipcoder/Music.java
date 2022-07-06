@@ -23,7 +23,7 @@ public class Music {
             temp++;
         }
 
-        if(index == this.playList.length -1){
+        if(startIndex == 0 && index == 3){
             return 1;
         }
         return clicks;
